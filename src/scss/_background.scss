@@ -1,0 +1,32 @@
+.bg{
+  &_top{
+    background-image: url('../images/top-player.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 18% 0%;
+    // animation-name: example;
+    // animation-duration: 4s;
+    // animation-iteration-count: 1;
+    }
+  &_mid{
+    background-image: url('../images/mid-player.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 16% 14%;
+  }
+  &_bottom{
+    background-image: url('../images/bottom-player.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 85%;
+  }
+}
+// @keyframes example {
+//   0% {
+//     transform: scale(.8);
+//   }
+
+//   100% {
+//     transform: scale(1);
+//   }
+// }

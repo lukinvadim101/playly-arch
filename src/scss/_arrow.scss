@@ -1,0 +1,25 @@
+.arrow{
+  display: flex;
+  align-items: center;
+  position: sticky;
+  justify-content: flex-end;
+  top: 60vh;
+  left: 0;
+  width: 80%;
+  margin: 0 auto;
+  
+}
+.scroll {
+  display: flex;
+  justify-content: center;
+  width: 31px;
+  text-transform: uppercase;
+  transform: rotate(-90deg);
+  font-family: Roboto;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.arrow_up{
+  transform: rotate(-180deg);
+}

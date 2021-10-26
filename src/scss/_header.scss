@@ -1,0 +1,61 @@
+@import 'fonts';
+
+.header {
+  width: 70%;
+  margin: 0 auto;
+  min-height: 80vh;
+  &__wrapper {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__title {
+    font-family: 'Reckoner', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 200px;
+    line-height: 106%;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.1em;
+  }
+  &__nav {
+    margin-top: 1.8vh;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 106%;
+    letter-spacing: 0.1em;
+    &-list {
+      list-style-type: none;
+      margin-left: 0; 
+      padding-left: 0;
+      font-family: 'Bebas Neue', cursive;
+      
+      &__item {
+        position: relative;
+        margin-bottom: 25px;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        &:hover {
+          left: 42px;
+          cursor: pointer;
+        }
+        &:hover:before {
+          content: "";
+          position: absolute;
+          display: block;
+          left: -50px;
+          top: 8px;
+          width: 40px;
+          height: 6px;
+          background-color: $elements;
+          pointer-events: none;
+        }
+        
+      }
+    }
+  }
+}

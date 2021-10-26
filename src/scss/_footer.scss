@@ -1,0 +1,32 @@
+.footer{
+  width: 70%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  &__hr{
+    margin-top: 125px;
+    width: 100%;
+    height: 3px;
+    background-color: $main-txt;
+  }
+  &__item{
+    height: 20px;
+    &:nth-child(2){
+      margin: 0 70px;
+    }
+  }
+  &__item, &__item__link {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: $main-txt;
+  }
+  &__item__link {
+    &:hover, :active{
+      color: $accent-color;
+      text-decoration: inherit;
+    }
+  }
+}

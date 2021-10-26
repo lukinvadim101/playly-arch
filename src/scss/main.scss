@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap');
+@import "reboot.min";
+@import 'fonts';
+@import 'variables';
+@import 'background';
+@import 'arrow';
+@import 'header';
+@import 'section';
+@import 'specific-sections';
+@import 'footer';
+@import "video";
+@import "media";
+
+body {
+  background-color: $base-color;  
+  color: $main-txt;
+}
+html { 
+  scroll-behavior: smooth;
+} 

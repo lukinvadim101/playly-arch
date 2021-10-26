@@ -1,0 +1,52 @@
+.section {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: $section-mt;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 7%;
+  &__title {
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 106%;
+    letter-spacing: 0.1em;
+    text-transform: lowercase;
+  }
+  &__description {
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+    align-items: baseline;
+  }
+  &__content { 
+    width: 52%;
+  }
+  &__txt{
+    &-wrapper{
+      position: relative;
+      margin-top: 40px;
+      &:before{
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 10px;
+        opacity: 0.5;
+        top: -32px;
+        background-color: $elements;
+      }
+    }
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
+    margin: 0;
+    &:first-of-type{
+      margin-bottom: 20px;
+    }
+  }
+  
+}
